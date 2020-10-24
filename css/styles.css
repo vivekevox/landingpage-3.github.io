@@ -815,6 +815,72 @@ input[type='checkbox'] {
 /*********************/
 /*     Takeaways     */
 /*********************/
+
+.card-title-price {
+	margin-bottom: 0.375rem;
+	margin-top: 15px;
+	color: #ff5a75;
+	text-align: center;
+    font: 700 1.125rem/1.5rem "Open Sans", sans-serif;
+}
+.cards-2 .card .price .currency {
+    margin-right: 0.25rem;
+    color: #434c54;
+    font-weight: 700;
+    font-size: 1.5rem;
+    vertical-align: 40%;
+}
+.cards-2 .card .price .value {
+    color: #434c54;
+    font: 700 3.25rem/3.5rem "Open Sans", sans-serif;
+    text-align: center;
+}
+.cards-2 .card .frequency {
+    font-size: 0.875rem;
+    text-align: center;
+}
+.price{
+	text-align: center;
+}
+.cards-2 .card .divider {
+    height: 1px;
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: #ccd3df;
+}
+.cards-2 .card .list-unstyled {
+    margin-top: 1.875rem;
+    margin-bottom: 1.625rem;
+    text-align: left;
+}
+.cards-2 .card .list-unstyled .media {
+    margin-bottom: 0.5rem;
+}
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.cards-2 .card .list-unstyled .fas {
+    color: #ff5a75;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+}
+.cards-2 .card .list-unstyled .fas.fa-times {
+    margin-left: 0.1875rem;
+    margin-right: 0.125rem;
+    color: #555;
+}
+.cards-2 {
+    padding-top: 7.875rem;
+    padding-bottom: 2.25rem;
+    text-align: center;
+}
+.cards-2 .card .list-unstyled .media-body {
+    margin-left: 0.625rem;
+}
 .cards-1 {
 	padding-top: 2rem;
 	padding-bottom: 3rem;
@@ -829,6 +895,7 @@ input[type='checkbox'] {
 
 .cards-1 .card-title {
 	margin-bottom: 0.375rem;
+	
 }
 
 .cards-1 .card-image {
@@ -2157,7 +2224,9 @@ a:hover.back-to-top {
 
 	/* Portfolio */
 	.cards-2 .card {
-		width: 33.25rem;
+    width: 19.375rem;
+    max-width: 100%;
+    margin-left: 1.75rem;
 	}
 	
 	.cards-2 .card:nth-of-type(2n+1) {
